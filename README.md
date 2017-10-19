@@ -38,8 +38,8 @@ Vue.loading(false);
 - `section`: a element selector used by querySelector,the section to show loading
 
 ### Methods
--`Vue.clearLoading`: clear loading when vue router switch
+- `Vue.clearLoading`: clear loading when vue router switch
 
 ### Preview
 
-![toast image](./doc/toast.png)
+![loading image](./doc/loading.png)

@@ -1,6 +1,6 @@
 {
   "name": "vue-loading2",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "a vue loading component",
   "main": "dist/vue-loading.js",
   "scripts": {
