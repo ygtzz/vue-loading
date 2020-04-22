@@ -3,20 +3,13 @@
 ### Install
 
 ```bash
-npm install vue-loading2 -S
-
-yarn add vue-loading2
+npm install vue-js-loading -S
 ```
 
 ### QuickStart
 ```javascript
-require('vue-loading/dist/vue-loading.css');
-
-// in ES6 modules
 import loading from 'vue-loading';
-
-// in CommonJS
-const loading = require('vue-loading');
+import 'vue-loading/dist/vue-loading.css';
 
 // in Global variable
 const loading = VueLoading.default;
@@ -24,11 +17,17 @@ const loading = VueLoading.default;
 Vue.use(loading);
 ```
 ```javascript
+//in component
 this.$loading(true,{
     id:'loading1',
     section:''
 });
-Vue.loading(false);
+
+//in Global
+Vue.loading(true,{
+    id: 'loading2',
+    section: ''
+});
 ```
 
 ### Params
@@ -38,7 +37,7 @@ Vue.loading(false);
 - `section`: a element selector used by querySelector,the section to show loading
 
 ### Methods
-- `Vue.clearLoading`: clear loading when vue router switch
+- `Vue.clearLoading`: clear all loadings, such as when vue router switch
 
 ### Preview
 
