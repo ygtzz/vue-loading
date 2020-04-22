@@ -3,7 +3,7 @@
 ### Install
 
 ```bash
-npm install vue-js-loading -S
+npm install vue-m-loading -S
 ```
 
 ### QuickStart

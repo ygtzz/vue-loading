@@ -1,5 +1,5 @@
 {
-  "name": "vue-js-loading",
+  "name": "vue-m-loading",
   "version": "0.0.4",
   "description": "a vue loading component",
   "main": "dist/vue-loading.js",
